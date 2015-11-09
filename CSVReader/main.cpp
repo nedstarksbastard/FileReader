@@ -6,14 +6,11 @@
 //  Copyright © 2015 Fizi Yadav. All rights reserved.
 //
 
-#include <algorithm>                              // for std::find
-#include <iostream>                               // for std::cout
+#include <iostream>
 #include <sys/mman.h>
-#include <sys/types.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/stat.h>
-#include <assert.h>
 
 
 size_t getFilesize(const char* filename) {
